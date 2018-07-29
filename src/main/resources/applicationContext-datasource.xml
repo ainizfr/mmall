@@ -85,7 +85,7 @@
     <!-- 事务管理 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
-        <property name="rollbackOnCommitFailure" value="true"/>
+        <property name="rollbackOnCommitFailure" value="true"/><!--提交失败是否回滚-->
     </bean>
 
 

@@ -9,3 +9,6 @@ https://github.com/pagehelper/Mybatis-PageHelper
 ### spring 
 sring-mvc-showcase
 spring-mvc配置
+
+
+dao层对service提供接口
